@@ -1,4 +1,4 @@
-// This allows for the title of the page (displayed in the tab) to be a mrquee.
+// This allows for the title of the page (displayed in the tab) to be a marquee.
 
 (function titleMarquee() {
     document.title = document.title.substring(1)+document.title.substring(0,1);
