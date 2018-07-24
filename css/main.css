@@ -1,0 +1,176 @@
+/* Background image is a remote url currently, can be changed to a local URL */
+
+body {
+    background-image:url("https://i.pinimg.com/originals/9a/95/aa/9a95aa646cdacc09d6b6f59f6faebc1e.jpg");
+    text-align: center; /* Aligns content to center */
+}
+
+
+/* Made in css, font size, font family etc can be changed. Copied from original website */
+
+.green-button {
+    font-size: 60px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    line-height: 85px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 350px;
+    height: 85px;
+    background: linear-gradient(#1d7751, #0e382c);
+    border: 3px #25793b solid; 
+    border-radius: 5px;
+    text-shadow: 0 0 20px rgba(255,255,255,0.3);
+    transition: .1s;
+    transform: scale(1);
+    cursor: pointer;
+    -webkit-user-select: none;
+    box-shadow: 0 0 50px rgba(0,117,9,0.5);
+    overflow: hidden;
+}
+
+.green-button:hover {
+    text-shadow: 0 0 20px rgba(255,255,255,0.5);
+    transform: scale(1.05);
+}
+
+
+/* Again, killfeed box made in css using borders, shapes etc. Copied from original website */ 
+/* One thing though, the headshot/gun images are remote urls. Might be best making them local. */
+
+.killFeed {
+    margin-top: 15px;
+    min-width: 100px;
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    border: 2px #B50000 solid;
+    border-radius: 6px;
+    padding: 0 10px;
+    transform: scale(1);
+    transition: .1s;
+  }
+  
+  .killFeed:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(111, 0, 0, 0.5);
+  }
+  
+  .killer {
+    color: #ECCE51;
+    line-height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+  }
+  
+  .weapon {
+    float: left;
+  }
+  
+  .weapon.ak47 {
+    margin-top: 8px;
+    height: 25px;
+    width: 80px;
+    background: url(http://i.imgur.com/fZlAs4p.png) no-repeat;
+    background-size: cover;
+    float: left;
+  }
+  
+  .weapon.usp {
+    margin-top: 8px;
+    height: 25px;
+    width: 80px;
+    background: url(http://i.imgur.com/dT1EGjU.png) no-repeat;
+    background-size: cover;
+    float: left;
+  }
+  
+  
+  .weapon.awp {
+    margin-top: 8px;
+    height: 25px;
+    width: 80px;
+    background: url("http://i.imgur.com/i5Euh7o.png") no-repeat;
+    background-size: cover;
+    float: left;
+  }
+  
+  .headshot.true {
+    margin: 8px 0px 0px 10px;
+    height: 22px;
+    width: 22px;
+    background-image: url(https://www.steamid.co.uk/images/headshot.png);
+    background-size: cover;
+    float: left;
+  }
+  
+  .wallbang {
+    float: left;
+  }
+  
+  .wallbang.true {
+    margin: 8px 0px 0px 10px;
+    height: 22px;
+    width: 22px;
+    background: url(http://i.imgur.com/FmmFb28.png);
+    background-size: cover;
+    float: left;
+  }
+  
+  .headshot {
+    float: left;
+  }
+  
+  .killed {
+    margin-left: 10px;
+    color: #71A6FF;
+    line-height: 40px;
+    display: inline-block;
+    float: left;
+  }
+  
+
+/* The stars are created here using CSS, you could equally use an image and/or make another shape in css */ 
+
+  #random-stars {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  } 
+
+#random-stars .star {
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+}
+#random-stars .star.far {
+  width: 1px;
+  height: 1px;
+}
+#random-stars .star.near {
+  width: 4px;
+  height: 4px;
+}
+#random-stars .star.white {
+  background: #fff;
+  box-shadow: 0 0 15px #fff;
+}
+#random-stars .star.yellow {
+  background: #BFBB40;
+  box-shadow: 0 0 15px #BFBB40;
+}
+#random-stars .star.blue {
+  background: #4444ff;
+  box-shadow: 0 0 15px #4444ff;
+}
+#random-stars .star.red {
+  background: #ff4444;
+  box-shadow: 0 0 15px #ff4444;
+}
